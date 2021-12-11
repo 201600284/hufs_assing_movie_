@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>이스네 영화 사이트</title>
+    <!--css3 꾸미기를 통하여 배경을 꾸며 보았습니다. 전체 배경은 베이지색, h3,h2,hr에 색을 주었습니다. 그리고 모든 p태그들의 글씨는 하늘색으로 하였습니다.-->
+<style>
+#menubar {
+	background : rgb(0, 128, 53);
+}
+#menubar ul { 
+	margin : 10;
+	padding : 5;
+	width : 567px; 
+}
+#menubar ul li {
+	display : inline-block; 
+    list-style-type : none;
+	
+}
+#menubar ul li a {
+	color : white;
+  	text-decoration : none;
+}
+#menubar ul li a:hover {
+ 	color : violet;  
+}
+   
+    
+    
+    
+     body { background-color : rgb(254, 255, 225); }
+	h3 {text-align: center; color : rgb(0, 124, 128); }
+    h2 { color: palevioletred;}
+	hr { border : 3px solid yellow; }
+	p { color : dodgerblue;  font-size:20px; }
+    
+    
+    div div{
+	border : 4px solid rgb(50, 205, 166) ;
+	color : rgb(68, 0, 255);
+	background : aliceblue;
+    display: inline-block;
+    margin: 7px;
+    width: 280px; height: 30px;
+}
+table {
+    border: 5px solid gray;
+    border-collapse : collapse;
+}
+td,th{
+    text-align : center;
+	padding : 5px;
+	height : 50px;
+	width : 200px;
+}
+thead{ 
+	background : darkgray;
+	color : yellow;
+}
+tbody tr:nth-child(even) {
+	background : aliceblue;
+}
+
+html, body { margin: 0; padding: 0; height: 100%; }
+.header {
+	width: 100%; height: 14%; 
+	background: powderblue;
+}
+
+.section {
+	width: 70%; height: 170%; float: left;
+	background: beige;
+}
+.aside {
+	width: 28%; height: 160%; float: left;
+	background: rgb(0, 255, 170);
+}
+
+</style>
+
+</head>
+<body>
+
+
+    <nav id="menubar">
+        <ul>
+            <li><a href="#"><a href="https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&query=%EC%BD%94%EB%A1%9C%EB%82%98+%ED%99%95%EC%A7%84%EC%9E%90+%ED%98%84%ED%99%A9&oquery=%EB%A9%94%EA%B0%80%EB%B0%95%EC%8A%A4&tqi=hkLPVwp0JXossFe86BKssssstO0-168898">●코로나 확진자 현황</a></a></li>
+            <li><a href="#"><a href="http://ncov.mohw.go.kr/shBoardView.do?brdId=3&brdGubun=32&ncvContSeq=520">●코로나 대응 수칙</a></a></li>
+            <li><a href="#">●이용약관</a></li>
+            <li><a href="#">●개인고객처리방침</a></li>
+            <li><a href="#">●고객센터</a></li>
+        </ul>
+    </nav>   
+
+<header class="header">
+<h2>▶12월 개봉영화◀</h2>
+<p><strong>코로나로 지친 마음을 영화로 치유하세요.</strong></p>
+<p><strong>위드로코나: 요즈음 영화관은 백신관을 운영하고 있습니다. 백신관에서는 팝콘이나 음식이 취식가능합니다. 코로나 이전처럼 영화를 즐기세요!</strong></p>  
+
+
+
+</header>
+<!--시맨틱 인라인 태그를 사용하여 간단한 시간을 표시 해보았습니다.-->
+<mark>현재시각 </mark> <strong><time>21:24</time></strong>
+<hr>
+<h3>12월 박스오피스</h3>
+
+<!--큰 틀에서 시맨틱 태그를 사용하여 전체적으로 문서의 구조화를 통해 깔끔하게 보이도록 하였습니다. header,section,aside를 사용하였습니다.-->
+<section class="section">
+
+ <!--주석: 밑에 이미지는 제가 직접 캡쳐하여 제가 만든 웹프로그래밍 폴더에서 가져온것입니다, 그리고 url 부분에 자바스크립트를 활용하여 클릭시 코드가 나오게 하였습니다.-->   
+<a href="javascript:alert('영화개봉일:2021년 12월 21일 , 12세관람가,가족 뮤지컬 영화')">
+<img src="https://search.pstatic.net/common?quality=75&direct=true&src=https%3A%2F%2Fmovie-phinf.pstatic.net%2F20211116_218%2F1637044152743qvvAG_JPEG%2Fmovie_image.jpg"width="300" height="450"></a>
+
+<a href="javascript:alert('영화개봉일:2021년 12월 15일 , 12세관람가',액션 히어로영화, 영화시간:148분')">
+<img src="https://movie-phinf.pstatic.net/20211119_177/1637287230880ShDcq_JPEG/movie_image.jpg?type=m886_590_2"width="300" height="450"></a>
+
+<a href="javascript:alert('영화개봉일:2021년 12월 21일 , 12세관람가, 액션 영화,영화시간:147분')">
+<img src="https://movie-phinf.pstatic.net/20211209_234/1639039550210iXjam_JPEG/movie_image.jpg?type=m886_590_2"
+		  width="300" height="450"></a>
+
+<a href="javascript:alert('영화개봉일:2021년 12월 21일 ,액션영화 ,영화시간:미정')">
+<img src="https://movie-phinf.pstatic.net/20211130_73/1638258723354EDEJb_JPEG/movie_image.jpg?type=m886_590_2"
+		  width="300" height="450"></a>      
+
+    <!--주석: 밑에 코드는 제가 하이퍼 링크를 통하여 각 영화들의 예고편들에 바로 연결이 되도록 해보았습니다
+    그리고 링크의 target속성을 활용하였습니다. 그리고 inline-block 박스를 활용하여 각 영화 예고편이라는 글씨들을 꾸며보았습니다.-->
+    <div style="background:rgba(255, 192, 231, 0.856) ;">
+    <div><a href="https://www.youtube.com/watch?v=DJs_ihmMZfg" target="blank">엔칸토 예고편</div>
+    <div><a href="https://www.youtube.com/watch?v=W7edvITC9g4" target="_self">스파이더맨3 예고편</div>
+    <div><a href="https://www.youtube.com/watch?v=-5BrUWtDHfE" target="_parent">매트릭스4 예고편</div>
+    <div><a href="https://www.youtube.com/watch?v=qmplEPm3RUI">킹스맨 예고편</div></div> 
+<hr>
+  <h3>영화관 및 예매사이트</h3>   
+<!--주석: 이 코드는 제가 ul 즉 순서가 없는 리스트로 영화지점들을 나열해보고자 한 것 입니다. 데이터목록을 가진 텍스트 입력으로 상세정보를 사용하여,
+        각 영화관 별로 지점이 어디어디있가 간단하게 보이도록 하였습니다.-->      
+          <ul>
+            <li><strong><p><a href="http://www.megabox.co.kr">메가박스 : 새로운 이야기를 만나고, 함께 어울려 놀고, 즐거운 경험을 공유하는 공간 </a></p></strong></li>
+            <form>->메가박스 영화지점:<input type="text" list="moviecinema">
+                <datalist id="moviecinema">
+                    <option value="홍대점">
+                    <option value="목동점">
+                    <option value="신촌점">
+                    <option value="이수점">
+                </datalist>  
+            <li><strong><p><a href="http://www.cgv.kr">CGV : CGV는 선진화된 관람문화와 최고의 서비스로 고객에게 잊을 수 없는 감동을 선사합니다. </a></p></strong></li>
+            <form>->CGV 영화지점:<input type="text" list="moviecinema">
+                <datalist id="moviecinema">
+                    <option value="영등포역점">
+                    <option value="구로역점">
+                    <option value="강남역점">
+                    <option value="타임스퀘어점">
+                </datalist>  
+            <li><strong><p><a href="http://www.cineq.co.kr">씨네큐 : 지역 친화적인 복합 문화 생활공간, 씨네Q </a></p></strong></li>
+            <form>->씨네큐 영화지점:<input type="text" list="moviecinema">
+                <datalist id="moviecinema">
+                    <option value="신도림점">
+                    <option value="영덕예주점">
+                    <option value="경주보문점">
+                    <option value="전주영화의거리점">
+                </datalist>        
+             </form>   
+            <li><strong><p><a href="http://www.lottecinema.co.kr" red>롯데시네마 : 고객에게 행복한 기억을 선사합니다.</a></p></strong></li>
+            <form>->롯데시네마 영화지점:<input type="text" list="moviecinema">
+                <datalist id="moviecinema">
+                    <option value="영등포역점">
+                    <option value="디큐브시티점">
+                    <option value="수원역점">
+                </datalist>              
+        </ul>
+      
+<hr>
+    <h3>영화사별 이벤트 및 혜택</h3>
+    <ul>
+        <li><strong><p><a href="https://megabox.co.kr/event?NaPm=ct%3Dkwg4389a%7Cci%3Dcheckout%7Ctr%3Dds%7Ctrx%3D%7Chk%3D2e0dba6f6520a95f5257ee774f3ca3b58e4783d2">메가박스 : 진행중인 이벤트</a></p></strong></li>
+        <li><strong><p><a href="https://www.cineq.co.kr/Event/List">씨네큐 : 진행중인 이벤트 </a></p></strong></li>
+        <li><strong><p><a href="https://event.lottecinema.co.kr/NLCHS/Event">롯데시네마 : 진행중인 이벤트 </a></p></strong></li>
+        <li><strong><p><a href="http://www.cgv.co.kr/culture-event/event/defaultNew.aspx?mCode=001#1">CGV : 진행중인 이벤트</a></p></strong></li>
+    </ul>
+<hr>
+</head>
+<h3>박스오피스</h3>
+
+<!--주석: 밑에 코드는 제가 표만들기를 이용하여 영화의 관객수를 표현한것입니다. -->>
+<table>
+	<thead>
+		<tr><th>순위</th><th>영화제목</th><th>일일관객수</th><th>평점</th></tr>
+	</thead>
+	<tbody>
+		<tr><td>1위</td><td>유체이탈자</td><td>4.3만명</td><td>7.71</td</tr>
+		<tr><td>2위</td><td>연애 빠진 로맨스</td><td>2.7만명</td><td>8.42</td</tr>
+		<tr><td>3위</td><td>엔칸토</td><td>2.5만</td><td>8.00</td</tr>
+		<tr><td>4위</td><td>이터널스</td><td>1.1만</td><td>6.49</td</tr>
+        <tr><td>5위</td><td>장르만 로맨스</td><td>1만</td><td>7.40</td</tr>
+	</tbody>
+</table>
+</section>
+
+<!--시맨틱 인라인 태그 aside이고, 테두리를 꾸미기 위하여 style 을 이용하여 이미지의 테두리를 꾸며보았습니다.-->
+<aside class="aside">
+<p style="border: 10px double blue;"><a href="https://www.kofic.or.kr/kofic/business/board/selectBoardDetail.do?boardNumber=4&boardSeqNumber=50630"><img src="http://www.eye-scream.co.kr/esmail/2020/bom/event2/images/b01.jpg" width="510" height="1500" ></a></p>
+</aside>
+
+</body>
+</html>
